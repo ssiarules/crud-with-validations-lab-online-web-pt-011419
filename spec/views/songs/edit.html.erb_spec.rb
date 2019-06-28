@@ -8,7 +8,7 @@ RSpec.describe 'songs/edit', type: :feature do
       artist_name: 'Man With Instruments'
     }
   end
-
+binding.pry
   let(:song) { Song.create!(song_attributes) }
 
   it 'renders the edit song form' do
